@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.productsList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product {
+  border: 1px solid black;
+}
+
+.productDetails {
+  padding: 1rem;
+}
+
+section {
+  padding: 2rem 1rem;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+form{
+    margin-top: 15px;
+}
